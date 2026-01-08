@@ -1,0 +1,23 @@
+@layer components{    
+    .FooterList{
+        @apply w-[30%] mt-5 text-white
+    }
+    .FooterList>div{
+        @apply  text-xl mb-3
+    }
+    .FooterList li a{
+        @apply  block text-sm mb-1 py-1 cursor-pointer
+    }
+    .FooterListMobile{
+        @apply w-full text-white
+    }
+    .FooterListMobile>div{
+        @apply py-3 cursor-pointer pe-2 flex justify-between items-center
+    }
+    .FooterListMobile ul{
+        @apply ps-4 mb-4 mt-2
+    }
+    .FooterListMobile ul li{
+        @apply border-r border-white ps-4 py-1
+    }
+}

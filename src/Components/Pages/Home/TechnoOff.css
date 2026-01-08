@@ -1,0 +1,26 @@
+@layer components{
+    .technoOff{
+        @apply border-y my-15 py-3 border-[rgb(255,215,217)] overflow-hidden bg-[#ffffff] 
+    }
+    .TechnoOff-header{
+        @apply  text-white mb-8 px-6 py-2.5 flex justify-between items-center bg-[rgb(162,25,31)]
+    }
+    .technoOff-prev-btn,.technoOff-next-btn{
+        @apply w-9 shadow-[0_0_5px_0px_#caccce] h-9 text-[rgb(27,53,112)] text-[18px] rounded-full bg-white absolute z-10 top-60
+    }     
+    .swiper-button-disabled{
+        @apply opacity-50
+    }         
+    .technoOff .swiper-wrapper {
+       @apply items-stretch
+    }
+    .technoOff .swiper-slide{
+        height: auto !important;         
+    }
+    .technoOff .swiper-slide>div{
+        @apply  border-l last:border-0 h-full
+    }
+    .technoOff .swiper-slide>div{
+        @apply  border-l last:border-0 h-full
+    }
+}

@@ -1,0 +1,34 @@
+@layer components{
+    .baner-container{
+        @apply w-full relative
+    }
+    .baner-container img{
+        @apply w-full
+    }
+    .swiper-pagination{        
+        padding-right:40px;
+        display: flex;
+        align-items: center;
+        bottom: 10% !important;        
+    }
+   .baner-container .swiper-pagination-bullet{
+    background-color: rgb(105, 105, 105) !important;
+    opacity: 100 !important;
+    height: 7px !important;
+    width: 7px !important;
+    margin: 0 3px !important;
+   }
+   .baner-container .swiper-pagination-bullet-active{
+    background-color: rgb(255, 255, 255) !important;
+    opacity: 100 !important;
+    height: 20px !important;
+    width: 10px !important;
+    border-radius: 5px !important;
+   }
+   .btn-parent{
+    @apply absolute bottom-15 right-0 z-10 w-full
+   }
+   .baner-container .baner-next-btn,.baner-container .baner-prev-btn{
+    @apply w-12 h-12 relative mx-10
+   }
+}

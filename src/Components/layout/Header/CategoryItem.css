@@ -1,0 +1,15 @@
+
+.li_category{
+    padding: 4px 0 4px 20px;
+    position: relative;    
+}
+
+.li_category::after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 79%;
+    background-color: rgb(235, 235, 235);
+    bottom: 0;
+    right: 30px;
+}

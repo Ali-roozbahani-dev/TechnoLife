@@ -1,0 +1,18 @@
+.CategoryMenu-ul::-webkit-scrollbar {
+  width: 6px;  
+  
+}
+
+.CategoryMenu-ul::-webkit-scrollbar-track {
+  background: #f1f1f1;    
+}
+
+.CategoryMenu-ul::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 10px;  
+}
+
+
+.CategoryMenu-ul::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}

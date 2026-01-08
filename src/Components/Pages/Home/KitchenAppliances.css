@@ -1,0 +1,14 @@
+@layer components{
+    .KitchenAppliances-item{
+        @apply  relative mx-auto rounded-[10px] overflow-hidden 
+    }
+    .KitchenAppliances-item > p{
+        @apply  absolute w-full duration-50 text-xs -bottom-10 right-0 text-center text-white py-1 bg-[rgb(27,53,112)] 
+    }
+    .KitchenAppliances-item > img{
+        @apply  h-full w-full mx-auto 
+    }
+    .KitchenAppliances-item:hover > p{
+        bottom: 0 !important;
+    }
+}

@@ -1,0 +1,19 @@
+@layer components {
+    .NavbarIconProduct{
+        @apply  flex justify-center items-center
+    }
+    .NavbarIconProduct > div{
+        @apply  flex flex-col justify-between items-center relative cursor-pointer
+    }
+    .NavbarIconProduct > div > div{
+        @apply  w-8 h-8 flex justify-center items-center shadow-[0_2px_6px_0_rgba(0,0,0,.14)]  text-[#585858] rounded-md mx-4
+    }
+    .NavbarIconProduct > div > span{
+        @apply  opacity-0 transition-opacity duration-100 absolute z-100 bg-white top-[-55px] left-1/2 -translate-x-[66%]  w-max shadow-[0_2px_6px_0_rgba(0,0,0,.14)] px-4 py-2 text-[#474747] rounded-3xl mx-4
+    }
+    .NavbarIconProduct > div:hover > span{ 
+        @apply opacity-100
+        }
+}
+
+

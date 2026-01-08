@@ -1,0 +1,645 @@
+{
+   "categories": [
+    { "id": 1, "src": "/src/assets/images/Header/phone.svg", "text": "موبایل" },
+    { "id": 2, "src": "/src/assets/images/Header/laptop.svg", "text": "لپ تاپ و تبلت" },
+    { "id": 3, "src": "/src/assets/images/Header/handsFree.svg", "text": "هدفون و هندزفری" },
+    { "id": 4, "src": "/src/assets/images/Header/handWatch.svg", "text": "ساعت و بند هوشمند" },
+    { "id": 5, "src": "/src/assets/images/Header/fridge.svg", "text": "لوازم خانگی" },
+    { "id": 6, "src": "/src/assets/images/Header/kitchen.svg", "text": "خانه و آشپزخانه" },
+    { "id": 7, "src": "/src/assets/images/Header/computerCase.svg", "text": "کامپیوتر و تجهیزات اداری" },
+    { "id": 8, "src": "/src/assets/images/Header/TV.svg", "text": "صوتی تصویری" },
+    { "id": 9, "src": "/src/assets/images/Header/modem.svg", "text": "شبکه و ارتباطات" },
+    { "id": 10, "src": "/src/assets/images/Header/jewellery.svg", "text": "طلا و جواهرات، ساعت" },
+    { "id": 11, "src": "/src/assets/images/Header/PsTools.svg", "text": "گیمینگ" },
+    { "id": 12, "src": "/src/assets/images/Header/health.svg", "text": "زیبایی و سلامت" },
+    { "id": 13, "src": "/src/assets/images/Header/phoneFunction.svg", "text": "خودرو و موتورسیکلت" },
+    { "id": 14, "src": "/src/assets/images/Header/handTool.svg", "text": "ابزارآلات و تجهیزات" },
+    { "id": 15, "src": "/src/assets/images/Header/powerBank.svg", "text": "کالای برق" },
+    { "id": 16, "src": "/src/assets/images/Header/book.svg", "text": "فرهنگ و هنر" },
+    { "id": 17, "src": "/src/assets/images/Header/byUsage.svg", "text": "کالاهای استوک" },
+    { "id": 18, "src": "/src/assets/images/Header/byLikes.svg", "text": "ورزش و سفر" },
+    { "id": 19, "src": "/src/assets/images/Header/phonePrice.svg", "text": "کارت هدیه" }
+  ],
+   "categorieSlide": [
+    { "id": 1, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_YMlvtP_a870b1ad-f6f4-4dde-9df1-49ae0a1ed412.webp", "text": "سکه و طلا" },
+    { "id": 2, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_FyU2QG_90e5aa89-062f-4e65-8fc0-8c088908a161.webp", "text":"تلویزیون"},
+    { "id": 3, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_tbgdVo_c386a4dc-a6a7-4501-9ad1-5e1cce74999c.webp", "text": "آیفون" },
+    { "id": 4, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_k9bM7G_e83acda9-815d-4c4c-b338-c1d41d465c34.webp", "text": "هندزفری و ایرپاد" },
+    { "id": 5, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_6A3a14_4aad40e6-0c4f-43fc-bfe1-52197541dc44.webp", "text": "لپ تاپ" },
+    { "id": 6, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_W5Hlwt_8071b4bf-1f57-4298-ad8d-86b6a9575719.webp", "text": "اسپیکر" },
+    { "id": 7, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_9mNgDj_355ce393-5034-4758-9883-f7f95ad2fa83.webp", "text": "تجهیزات ذخیره سازی" },
+    { "id": 8, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_M5o0vd_a6e8ba29-aa35-42fc-ade2-112168caaa8d.webp", "text": "طلای دیجیتال" },
+    { "id": 9, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_6l3Lif_4fc1b4bb-081c-483d-b0fe-2eb749459931.webp", "text": "خانه و آشپزخانه" },
+    { "id": 10, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_cOxZSJ_4eb18453-bf6e-4223-b76c-75c5ce34a9c4.webp", "text": "لوازم شخصی و برقی" },
+    { "id": 11, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_LMv4NZ_b080c288-4f07-4da4-8b45-2106c4aea11b.webp", "text":"کنسول بازی"  },
+    { "id": 12, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_A75Si1_1590b35f-d44f-4764-a98e-45079c4e9bf3.webp", "text": "گوشی اندروید" },
+    { "id": 13, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_WGo64n_d105fc48-9757-4562-b97f-18042d4ad2b7.webp", "text": "ویدیو پروژکتور" },
+    { "id": 14, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_ejOdGU_4c10b22b-146f-4a80-9aff-bd473cd277e2.webp", "text": "ساعت هوشمند" },
+    { "id": 15, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_eokCYV_348e0443-b2ea-490e-a5bd-d133215df953.webp", "text": "ابزار آلات رونیکس" },
+    { "id": 16, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_EXbypj_88aa8dc8-e308-40fd-8066-b8989c4ae3ca.webp", "text": "لوازم خانگی برقی" },
+    { "id": 17, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_grwRYQ_ff8869cb-ee4a-471e-b4f4-3315b4682d4b.webp", "text": "موس و کیبرد" },
+    { "id": 18, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_HH9blQ_3e7a7c29-fbd3-4b73-b048-8d0244fa2b83.webp", "text": "کتاب و لوازم تحریر" },
+    { "id": 20, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_J2P6AT_ad836221-42a5-4eb9-8659-6aa9d33e0dc9.webp", "text": "تجهیزات کامپیوتر" },
+    { "id": 21, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_1DMIaT_7b8cb19a-9def-47b7-ab4f-52b6d6d84cb1.webp", "text": "تصویه کننده هوا" },
+    { "id": 22, "src": "./src/assets/images/CategorySlide/banner_CircleCategories_HYKgei_edbb9be6-07ba-4415-8965-e61362bf78e5.webp", "text": "موتور سیکلت" }
+  ],
+  "products": [
+  {
+    "id": 1,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-21986_6d20c20b-ee91-431c-aa4c-a100b7080f0d.webp",
+    "title": "اتو مو رمینگتون مدل S8598",
+    "price": 5300000,
+    "discount": { "value": 4, "start_at": 1769952000, "end_at": 1770300000, "enabled": true }
+  },
+  {
+    "id": 2,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-108467_6f8bae9d-9d07-402c-84be-e7891ef9e231.webp",
+    "title": "پاوربانک روموس مدل WSC10-121 ظرفیت 10000 میلی آمپر ساعت 20 وات",
+    "price": 3200000,
+    "discount": { "value": 10, "start_at": 1769960000, "end_at": 1770350000, "enabled": true }
+  },
+  {
+    "id": 3,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-168868_832eb99b-99a4-4226-bdb1-415a596ce127.webp",
+    "title": "تلویزیون کیو ال ای دی جی پلاس مدل GTV-55SQ788NP سایز 55 اینچ",
+    "price": 44000000,
+    "discount": { "value": 7, "start_at": 1769970000, "end_at": 1770400000, "enabled": true }
+  },
+  {
+    "id": 4,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-135325_4dbc0c0f-6c90-11f0-bea5-17f082fe705a.webp",
+    "title": "اتو و حالت دهنده ی مو حرفه ای رومئو مدل RM-6161",
+    "price": 3500000,
+    "discount": { "value": 12, "start_at": 1769955000, "end_at": 1770450000, "enabled": true }
+  },
+  {
+    "id": 5,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-134934_c07657a8-69ee-11f0-bea5-17f082fe705a.webp",
+    "title": "سشوار برس دار چرخشی رمینگتون مدل AS8810",
+    "price": 5190000,
+    "discount": { "value": 8, "start_at": 1769965000, "end_at": 1770380000, "enabled": true }
+  },
+  {
+    "id": 6,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-5102_0a207531-4b75-4382-82f9-820f43c12057.webp",
+    "title": "بخاری برقی پارس خزر مدل TM2000",
+    "price": 3125000,
+    "discount": { "value": 9, "start_at": 1769958000, "end_at": 1770420000, "enabled": true }
+  },
+  {
+    "id": 7,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-279050_4995e505-f9e1-401c-a629-056e0fdff831.webp",
+    "title": "شارژر دیواری 18 وات دبلیو یو دبلیو مدل T95",
+    "price": 720000,
+    "discount": { "value": 3, "start_at": 1769962000, "end_at": 1770335000, "enabled": true }
+  },
+  {
+    "id": 8,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-277197_013e15a6-7c3f-4484-956d-c799bf6a6187.webp",
+    "title": "دستگاه تصفیه هوا پاکشوما مدل MPK-400",
+    "price": 19000000,
+    "discount": { "value": 4, "start_at": 1769959000, "end_at": 1770500000, "enabled": true }
+  },
+  {
+    "id": 9,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-40782_1695638a-0ac2-4cc8-8812-fea520adef95.webp",
+    "title": "کوله لپ تاپ 15 اینچی کینگ استار مدل KBP 1320",
+    "price": 1750000,
+    "discount": { "value": 7, "start_at": 1769967000, "end_at": 1770280000, "enabled": true }
+  },
+  {
+    "id": 10,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-279433_77e9bdf9-7379-4940-8a8b-3e98e67b6399.webp",
+    "title": "گوشی موبايل سامسونگ Galaxy A07 4G ظرفیت 128 گیگابایت رم 4 گیگابایت همراه با شارژر داخل جعبه",
+    "price": 13800000,
+    "discount": { "value": 8, "start_at": 1769972000, "end_at": 1770360000, "enabled": true }
+  },
+  {
+    "id": 11,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-285366_ebb2d153-c080-40fa-8ea5-5b014611a99a.png",
+    "title": "گوشی موبایل آنر مدل play 10 4G ظرفیت 128 گیگابایت رم 4 گیگابایت",
+    "price": 11200000,
+    "discount": { "value": 13, "start_at": 1769954000, "end_at": 1770325000, "enabled": true }
+  },
+  {
+    "id": 12,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-55998_e8787084-6f09-4fd8-84a9-13e62e735778.webp",
+    "title": "گوشی موبایل آنر مدل 200 ظرفیت 512 گیگابایت رم 12 گیگابایت",
+    "price": 54000000,
+    "discount": { "value": 4, "start_at": 1769963000, "end_at": 1770410000, "enabled": true }
+  },
+  {
+    "id": 13,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-78111_88f3841f-186e-4fb3-a519-89f6967547ab.webp",
+    "title": "گوشی موبایل سامسونگ Galaxy S25 Ultra 5G ظرفیت 512 گیگابایت رم 12 گیگابایت - ویتنام",
+    "price": 165500000,
+    "discount": { "value": 6, "start_at": 1769957000, "end_at": 1770490000, "enabled": true }
+  },
+  {
+    "id": 14,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-69015_f4d23762-985a-455b-9664-393d01ee41e8.webp",
+    "title": "گوشی موبایل سامسونگ Galaxy S25 Ultra 5G ظرفیت 256 گیگابایت رم 12 گیگابایت - ویتنام",
+    "price": 140000000,
+    "discount": { "value": 15, "start_at": 1769961000, "end_at": 1770310000, "enabled": true }
+  },
+  {
+    "id": 15,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-149697_e49566d8-244f-415b-a227-f7345502170a.webp",
+    "title": "گوشی موبایل اپل iPhone 17 Pro Max ZA/A ظرفیت 256 گیگابایت رم 12 گیگابایت - Not Active رجیستر شده",
+    "price": 279999000,
+    "discount": { "value": 9, "start_at": 1769975000, "end_at": 1770480000, "enabled": true }
+  },
+  {
+    "id": 16,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-64035_c6113e25-4348-4ce0-9bd4-a45b7f2012af.webp",
+    "title": "لپ تاپ ایسوس 16 اینچی مدل Vivobook R1605VA i7 1355U 16GB 512GB",
+    "price": 78000000,
+    "discount": { "value": 12, "start_at": 1769956000, "end_at": 1770370000, "enabled": true }
+  },
+  {
+    "id": 17,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-165075_2d85da43-beed-4543-9d1c-e58ab8b63380.webp",
+    "title": "لپ تاپ 15.6 اینچی اچ پی مدل Hp 15-FC0171nia Athlon 7120U 8GB 512GB",
+    "price": 38500000,
+    "discount": { "value": 13, "start_at": 1769968000, "end_at": 1770460000, "enabled": true }
+  },
+  {
+    "id": 18,
+    "img": "./src/assets/images/TechnoTime/small_product-TLP-99215_4253a776-f07d-4c62-8132-789c949fbe4c.webp",
+    "title": "گوشی موبايل سامسونگ Galaxy A26 5G ظرفیت 128 گیگابایت رم 6 گیگابایت - ویتنام",
+    "price": 25000000,
+    "discount": { "value": 14, "start_at": 1769970000, "end_at": 1770500000, "enabled": true }
+  }
+],
+  "best_of": [
+  {
+    "id": 1,
+    "title": "موبایل",
+    "brands": [
+      {
+        "id": 1,
+        "img": "./src/assets/images/best-of/mobile/static_phone_samsung_new.png",
+        "name": "سامسونگ"
+      },
+      {
+        "id": 2,
+        "img": "./src/assets/images/best-of/mobile/static_phone_poco_new.png",
+        "name": "پوکو"
+      },
+      {
+        "id": 3,
+        "img": "./src/assets/images/best-of/mobile/static_phone_iphone_new.webp",
+        "name": "آیفون"
+      },
+      {
+        "id": 4,
+        "img": "./src/assets/images/best-of/mobile/static_phone_honor_new.webp",
+        "name": "آنر"
+      },
+      {
+        "id": 5,
+        "img": "./src/assets/images/best-of/mobile/static_phone_xiaomi_new.png",
+        "name": "شیائومی"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "لپ تاپ",
+    "brands": [
+      {
+        "id": 1,
+        "img": "./src/assets/images/best-of/laptop/static_laptop_asus_new.png",
+        "name": "ایسوس"
+      },
+      {
+        "id": 2,
+        "img": "./src/assets/images/best-of/laptop/static_laptop_hp_new.png",
+        "name": "اچ پی"
+      },
+      {
+        "id": 3,
+        "img": "./src/assets/images/best-of/laptop/static_laptop_mac_new.webp",
+        "name": "مک بوک"
+      },
+      {
+        "id": 4,
+        "img": "./src/assets/images/best-of/laptop/static_laptop_lenovo_new.png",
+        "name": "لنوو"
+      },
+      {
+        "id": 5,
+        "img": "./src/assets/images/best-of/laptop/static_laptop_aser_new.png",
+        "name": "ایسر"
+      },
+      {
+        "id": 6,
+        "img": "./src/assets/images/best-of/laptop/static_laptop_MSi.webp",
+        "name": "ام اس آی"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "هندزفری",
+    "brands": [
+      {
+        "id": 1,
+        "img": "./src/assets/images/best-of/handsfree/static_handsfree_qc_new.png",
+        "name": "کیوسی وای"
+      },
+      {
+        "id": 2,
+        "img": "./src/assets/images/best-of/handsfree/static_handsfree_haylou_new.png",
+        "name": "هایلو"
+      },
+      {
+        "id": 3,
+        "img": "./src/assets/images/best-of/handsfree/static_handsfree_xiaomi_new.png",
+        "name": "شیائومی"
+      },
+      {
+        "id": 4,
+        "img": "./src/assets/images/best-of/handsfree/static_handsfree_apple_new.webp",
+        "name": "اپل"
+      },
+      {
+        "id": 5,
+        "img": "./src/assets/images/best-of/handsfree/static_handsfree_samsung_new.png",
+        "name": "سامسونگ"
+      },
+      {
+        "id": 6,
+        "img": "./src/assets/images/best-of/handsfree/static_handsfree_huawei_new.png",
+        "name": "هوآوی"
+      },
+      {
+        "id": 7,
+        "img": "./src/assets/images/best-of/handsfree/static_handsfree_anker_new.webp",
+        "name": "انکر"
+      }
+    ]
+  }
+]
+,
+  "blogs":[
+    {
+      "id" : 1,
+      "img" : "./src/assets/images/blog/banner_ArticleBanners_RhF6Ia_e2b88ff7-f589-4739-97e0-6d700a81c208.webp",
+      "description" : "آیفون ۱۷ ؛ هرچه که تا به حال لو رفته!"
+    },
+    {
+      "id" : 2,
+      "img" : "./src/assets/images/blog/banner_ArticleBanners_OX2jJx_ec1c80a0-b745-4a8b-b894-10404e58119d.webp",
+      "description" : "پرطرفدارترین بازی کم حجم برای کامپیوتر شما!"
+    },
+    {
+      "id" : 3,
+      "img" : "./src/assets/images/blog/banner_ArticleBanners_rijF1Z_a96dbaf3-e100-463f-8461-9dcfb12699d4.webp",
+      "description" : "طرز تهیه نوشیدنی‌‌های سرد کافی‌ شاپ"
+    },
+    {
+      "id" : 4,
+      "img" : "./src/assets/images/blog/banner_ArticleBanners_llrZn1_3974bde9-7682-4ad8-b202-1cebfe1b7b17.webp",
+      "description" : "12 مورد از علت‌های کند شدن لپ تاپ"
+    },
+    {
+      "id" : 5,
+      "img" : "./src/assets/images/blog/banner_ArticleBanners_bOE8Hn_a141732b-5dda-4bc6-af7f-c69e9191fdd2.webp",
+      "description" : "بهترین ساعت هوشمند صفحه گرد ۲۰۲۵"
+    },
+    {
+      "id" : 6,
+      "img" : "./src/assets/images/blog/banner_ArticleBanners_Oe3UWm_1c7de62c-600d-4d2d-a1b4-f449be5c886c.webp",
+      "description" : "پرطرفدارترین اپلیکیشن‌های پیام رسان ایرانی"
+    },
+    {
+      "id" : 7,
+      "img" : "./src/assets/images/blog/banner_ArticleBanners_PZ59DU_f03074fd-593b-4d67-a8a9-be63f1d11ba0.webp",
+      "description" : "لیست گوشی‌هایی با بهترین دوربین‌‌ سلفی"
+    }
+  ],
+  "kitchenAppliances" : [
+    {
+      "id" : 1,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_electric_heater_new.webp",
+      "title" : "بخاری برقی"      
+    },
+    {
+      "id" : 2,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_vaccum_new.png",
+      "title" : "جارو برقی"      
+    },
+    {
+      "id" : 3,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_juicer_new.webp",
+      "title" : "آبمیوه گیری"      
+    },
+    {
+      "id" : 4,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_airConditioner_new.webp",
+      "title" : "کولر گازی"      
+    },
+    {
+      "id" : 5,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_teaMaker_new.png",
+      "title" : "چای ساز"      
+    },
+    {
+      "id" : 6,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_iron_new.png",
+      "title" : "اتو"      
+    },
+    {
+      "id" : 7,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_riceMaker_new.png",
+      "title" : "پلوپز"      
+    },
+    {
+      "id" : 8,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_microwave_new.png",
+      "title" : "مایکروویو"      
+    },
+    {
+      "id" : 9,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_refrigerator_new.png",
+      "title" : "یخچال"      
+    },
+    {
+      "id" : 10,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_coffeMaker_new.webp",
+      "title" : "قهوه ساز"      
+    },
+    {
+      "id" : 11,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_meatGreander_new.png",
+      "title" : "چرخ گوشت"      
+    },
+    {
+      "id" : 12,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_dishwasher_new.png",
+      "title" : "ماشین ظرفشویی"      
+    },
+    {
+      "id" : 13,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_hairDryer_new.png",
+      "title" : "سشوار"      
+    },
+    {
+      "id" : 14,
+      "img" : "./src/assets/images/kitchenAppliances/static_homeAppliance_washingMachine_new.png",
+      "title" : "ماشین لباسشویی"      
+    }
+  ],
+  "aboutShoping":
+  [
+  {
+    "id": 1,
+    "title": "فروشگاه اینترنتی تکنولایف",
+    "content": "فروشگاه اینترنتی تکنولایف سال‌ها است که به‌عنوان بزرگترین فروشگاه کالای دیجیتال مشغول فعالیت است. از آن‌جا که خرید اینترنتی همواره موجی از بی‌اعتمادی و شک را با خود به‌همراه داشته، نماد الکترونیکی می‌تواند خیال خیلی از افراد را راحت کند. تکنولایف با داشتن نماد اعتماد الکترونیکی و عضویت در سازمان صنفی رایانه‌ای کشور، همچنین عضویت در انجمن صنفی فروشگاه‌های اینترنتی، فضای ایمن برای خرید آنلاین را برای مشتریان خود ایجاد کرده است.\n\nشما می‌توانید خرید کالای دیجیتال مانند خرید لپ تاپ ، گوشی موبایل در مدل‌ها و برندهای مختلف، لوازم جانبی موبایل ، هدفون، و کلیه لوازم دیجیتال مدنظر خود را با بهترین قیمت، در فروشگاه تکنولایف به ثبت برسانید."
+  },
+  {
+    "id": 2,
+    "title": "خرید گوشی از تکنولایف",
+    "content": "برای خیلی از کاربران، تکنولایف فروشگاه اینترنتی موبایل محسوب می‌شود. این بدان خاطر است که شما می‌توانید انواع گوشی موبایل مورد نظر خود، از جمله گوشی شیائومی ، گوشی سامسونگ، گوشی هواوی، آیفون و دیگر برندها را در تکنولایف به‌راحتی پیدا و با قیمتی مناسب، خریداری کنید. خرید گوشی موبایل، آن‌هم اینترنتی، می‌تواند کاری دشوار باشد؛ اما شما می‌توانید با اطمینان کامل، گوشی موبایل مد نظرتان را از فروشگاه اینترنتی موبایل تکنولایف استعلام قیمت کرده و خریداری کنید."
+  },
+  {
+    "id": 3,
+    "title": "خرید گوشی سامسونگ",
+    "content": "برند کره‌ای سامسونگ، با تولید سالانه‌ی گوشی‌های پرچمدار، میان‌رده و اقتصادی، یکی از پرطرفدارترین و محبوب‌ترین برندها در میان کاربران سراسر جهان از جمله ایران است. انواع گوشی موبایل سامسونگ، مناسب کاربران گیمر، عاشقان تولید محتوا، علاقه‌مندان به عکاسی و دیگر گروه‌ها است. تنوع بالای گوشی سامسونگ در تکنولایف، این امکان را برای شما علاقه‌مندان ایجاد کرده که اقدام به خرید گوشی سامسونگ با بهترین قیمت کنید."
+  },
+  {
+    "id": 4,
+    "title": "خرید گوشی اپل",
+    "content": "گوشی اپل از گرانترین گوشی‌ها، در عین حال محبوب‌ترین گوشی‌ها در تمامی دنیا محسوب می‌شود. بالا بودن قیمت گوشی آیفون انگار هیچوقت نتوانست مانع شود که افراد موبایل این برند را برای خرید انتخاب نکنند. دوربین قوی، پردازنده‌ی همه‌فن‌حریف، طراحی زیبا و خیلی موارد دیگر، گوشی های این برند آمریکایی را بسیار پرطرفدار کرده و شما می‌توانید با بهترین قیمت، این گوشی‌ها را از سایت فروش گوشی تکنولایف خریداری کنید."
+  },
+  {
+    "id": 5,
+    "title": "خرید گوشی هواوی",
+    "content": "هواوی، این برند چینی، در سال ۲۰۱۲ برای جهانیان شناخته شد و توانست در زمانی کوتاه جزء چند شرکت برتر، به خصوص در فروش گوشی شود. با این که داستان‌های زیادی این برند داشت، اما باز هم طرفداران پروپاقرصی دارد. کسانی‌که هنوز هم به فکر خرید گوشی هواوی هستند. سایت خرید موبایل تکو لایف، گوشی‌های این برند را با قیمتی فوق‌العاده برای کاربران به فروش می‌رساند."
+  },
+  {
+    "id": 6,
+    "title": "خرید گوشی شیائومی",
+    "content": "سازندگان چینی شیائومی نیز، با تولید انواع گوشی و تبلت باکیفیت، توانست نظر و اعتماد خریداران گوشی را به‌ خود جلب کند. شیائومی در طیف‌های مختلف برای افراد مختلف با نیازهای گوناگون، گوشی‌های خوبی را در بازه قیمتی مختلف تولید کرد. یکی از دلایلی که شیائومی جزء برندهای پرطرفدار است، مقرون‌به‌صرفه بودن قیمت گوشی های این برند نسبت به رقبا است.\n\nشما می‌توانید انواع گوشی 5g و 4g را با بهترین قیمت از technolife خریداری کنید. توجه داشته باشید که با خرید لوازم جانبی موبایل مانند پاوربانک ، قاب و گلس، شارژر موبایل و … از تکنولایف، می‌توانید گوشی خود را به بهترین شکل تجهیز کنید."
+  },
+  {
+    "id": 7,
+    "title": "خرید هدفون و هندزفری",
+    "content": "در دنیای شلوغ امروزی، یکی از مهمترین گجت‌های دیجیتالی که همه در سبد خرید خود جای می‌دهند، هدفون و هندزفری است.\n\nاین روزها که استفاده از هدفون و هندزفری بلوتوثی فراگیرتر از گذشته شده، خوب است بدانید که شما می‌توانید تنوع گسترده‌ای از نظر برند را در این محصولات در سایت تکنولایف پیدا کنید. کلیه هندزفری‌ها و هدفون‌ها در رنگ‌بندی‌های متنوع و با گارانتی معتبر به فروش می‌رسند. شما می‌توانید ایرپاد اپل ، ایرپاد انکر، ایرپاد سامسونگ ، ایرپاد کیو سی وای، ایرپاد شیائومی و … را با بهترین قیمت انتخاب و خریداری کنید. توجه داشته باشید که هندزفری‌ های سیمی و گردنی نیز همچنان طرفداران خود را دارند و شما می‌توانید آن‌ها را نیز از میان مدل‌های موجود انتخاب نمایید."
+  },
+  {
+    "id": 8,
+    "title": "خرید ساعت و بند هوشمند",
+    "content": "ساعت هوشمند و بند هوشمند، دیگر محصولاتی هستند که به دلیل داشتن امکانات بالا، این روزها بسیار مورد توجه قرار می‌گیرند و محصولی مناسب استفاده روزمره، و همینطور کاملا مناسب هدیه دادن است. ساعت‌های هوشمند با توجه به برند قیمت‌های متنوعی دارند و همانطور که انتظار می‌رود، مدل‌های گرا‌ن‌تر از امکانات بیشتری نیز بهره می‌برند. اسمارت واچ‌ها به‌خاطر داشتن تنوع برنامه‌های ورزشی، سنسورهای سلامتی، همینطور امکان مکالمه و کنترل گوشی هوشمند، بسیار پرطرفدارند. شما می‌توانید اپل واچ ، ساعت هوشمند شیائومی، ساعت هوشمند کیسلکت، ساعت هوشمند سامسونگ و خیلی برندهای دیگر را با قیمتی فوق‌العاده از فروشگاه تکنولایف خریداری کنید. همچنین می‌توانید برای تجهیز کردن اسمارت واچ خود، سراغ لوازم جانبی ساعت هوشمند نیز بروید."
+  },
+  {
+    "id": 9,
+    "title": "خرید کامپیوتر و لپ تاپ",
+    "content": "وجود حداقل یک لپ تاپ در هر خانه ضرورت دارد. علاوه بر آن، در اداره‌‌ها، مدارس، و … نیز وجود لپ تاپ و کامپیوتر بسیار حائز اهمیت است. انواع لپ تاپ مانند مک بوک ، لپ تاپ ایسوس و همینطور انواع کامپیوتر مانند آل این وان را می‌توانید از تکنولایف تهیه نمایید. شما همچنین می‌توانید لپ تاپ و کامپیوتر مورد نظر خود را از میان انواع لپ تاپ گیمینگ ، دانشجویی، لمسی و دیگر کاربری‌ها انتخاب نمایید. علاوه بر لپ تاپ و کامپیوتر خرید انواع قطعات و لوازم جانبی مثل پردازنده ، کارت گرافیک ، مادربرد ، رم کامپیوتر، هارد اکسترنال ، هارد ssd ، هارد اینترنال ، شارژر و باتری لپ تاپ در این بخش از سایت تکنولایف امکان پذیر است."
+  },
+  {
+    "id": 10,
+    "title": "خرید تجهیزات شبکه و ماشین‌های اداری",
+    "content": "تجهیزاتی مانند کارت شبکه و مودم، دوربین مدار بسته، همینطور ماشین‌های اداری مانند پرینتر ، نه تنها در اداره‌ها، که در خیلی از خانه‌ها نیز استفاده می‌شوند. شما می‌توانید تجهیزات شبکه و ماشین‌های اداری را در مدل‌های مختلف، در تکنولایف مشاهده نموده و اقدام به خرید کنید."
+  },
+  {
+    "id": 11,
+    "title": "خرید سیستم صوتی تصویری",
+    "content": "از دیگر گزینه‌های خرید لوازم دیجیتال مهم، می‌توانیم به انواع سیستم صوتی تصویری مثل اسپیکر ، ساندبار ، اندروید باکس و تلویزیون اشاره کنیم. تلویزیون از آن دست کالاهایی است که همیشه در تمامی خانه‌ها بوده و امروزه خیلی از افراد بیشتر از یک تلویزیون برای خانه خود خریداری می‌کنند. علاوه بر آن، در اماکن دیگری مانند سالن‌های انتظار، هتل‌ها و اتاق‌های بیمارستانی نیز تلویزیون دیده می‌شود. شما می‌توانید قیمت تلویزیون در ابعاد مختلف و کیفیت‌ تصویر‌های گوناگون، همچنین تنوعی از برندها را در تکنولایف مشاهده کنید و اقدام به ثبت خرید خود از این فروشگاه اینترنتی دیجیتال نمایید."
+  },
+  {
+    "id": 12,
+    "title": "خرید لوازم و تجهیزات گیمینگ",
+    "content": "تکنولایف گیمرها را فراموش نکرده! شما همانطور که می‌توانید گوشی و لپ تاپ گیمینگ خود را از تکنولایف خریداری کنید، این امکان را دارید که انواع کنسول بازی مورد نظرتان را نیز از تکنولایف بخرید. در کنار آن، تنوع بسیار خوبی از لوازم جانبی مانند دسته بازی ، موس گیمینگ، مانیتور گیمینگ، کیف کنسول و خیلی موارد از این قبیل را می‌توانید در تکنولایف مشاهده کرده و خرید اینترنتی خود را به ثبت برسانید."
+  },
+  {
+    "id": 13,
+    "title": "خرید لوازم خانگی",
+    "content": "امروزه که حجم بالایی از لوازم خانگی با برق کار می‌کنند، خوب است که برای لوازم دیجیتال خانه از یک فروشگاه معتبر آنلاین کمک بگیرید. فروشگاه دیجیتال تکنولایف به‌عنوان یکی از معتبرترین فروشگاه هایی که در فروش انواع لوازم خانگی دیجیتال کوچک و بزرگ فعالیت می‌کند، این امکان را فراهم می‌کند تا از یخچال فریزر گرفته تا ماشین ظرفشویی ، ماشین لباسشویی و لوازم کوچک آشپزخانه مانند چای ساز،‌ اتو، همزن برقی، انواع جاروبرقی و جارو شارژی و هر محصول دیگری که برای خانه خود احتیاج دارید را به‌راحتی و با بهترین قیمت، به همراه گارانتی معتبر، تهیه کنید."
+  },
+  {
+    "id": 14,
+    "title": "زیبایی و سلامت",
+    "content": "وجود ابزار سلامت در خانه‌ها ضرورت دارد. لوازمی مانند تب سنج، فشارسنج، ماساژور و دیگر اقلام از این قبیل، در خانه‌هایی که افراد مسن و کودکان هستند، مدام استفاده می‌شود و خوب است به فکر خرید آن‌ها باشید. انواع مختلفی از این لوازم را می‌توانید با قیمتی مناسب از تکنولایف سفارش دهید."
+  },
+  {
+    "id": 15,
+    "title": "خرید ابزارآلات و تجهیزات",
+    "content": "برای خانه، کارگاه و ساختمان‌سازی، خرید ابزارآلات و تجهیزات ضرورت دارد. انواع ابزارآلات مانند ابزار شارژی ، ابزار برقی ، ابزار بادی و … از بهترین برندها در فروشگاه اینترنتی تکنولایف موجود است تا شما عزیزان بتوانید جعبه ابزار خود را به‌راحتی تجهیز کنید."
+  },
+  {
+    "id": 16,
+    "title": "خرید طلا و جواهرات",
+    "content": "خرید طلا و جواهرات، جزء پرسودترین خریدهاست و خیلی از افراد به منظور سرمایه‌گذاری سراغ خرید سکه یا جواهرات می‌روند. خوب است بدانید که تکنولایف علاوه بر این‌که فروشگاه اینترنتی کالای دیجیتال است، امکان خرید سکه و طلا را نیز برای شما فراهم آورده است."
+  },
+  {
+    "id": 17,
+    "title": "خرید اقساطی تکنولایف",
+    "content": "تکنولایف برای مشتریان عزیز خود، امکان خرید اقساطی را فراهم کرده است. چنانچه قصد خرید اقساطی از فروشگاه اینترنتی کالای دیجیتال تکنولایف را دارید، می‌توانید بدون نیاز به ضامن یا پیش‌پرداخت، در قسط‌های ۱۸ و ۲۴ ماهه خرید خود را انجام دهید. برای این‌کار، کافی است مراحلی که در صفحه خرید اقساطی درج شده را مطالعه کنید."
+  },
+  {
+    "id": 18,
+    "title": "گارانتی و خدمات پس از فروش تکنولایف",
+    "content": "تکنولایف شمار زیادی از کالاها را با گارانتی‌های معتبر ارائه می‌کند. شما می‌توانید پس از تحویل کالا از مهلت تست ۷ روزه کالا استفاده کنید و در مدت زمان مشخص‌شده درصورتی که کالا با ایرادات فنی خاصی همراه بود، از خدمات پس از فروش و خدمات مرجوعی تکنولایف استفاده کنید. همچنین، تکنولایف از خریداران در مراحلی که محصول نیاز به استفاده از خدمات، گارانتی و پشتیبانی دارد حمایت می‌کند."
+  },
+  {
+    "id": 19,
+    "title": "تخفیف‌‌های ویژه تکنولایف",
+    "content": "خرید از تکنولایف، قرار است همیشه برای شما رضایت‌بخش باشد. به‌همین‌منظور تکنولایف در طی سال با برگزاری جشنواره‌های مختلف مانند بلک فرایدی ، تخفیف‌های ویژه‌ای را برای مشتریان در نظر گرفته است."
+  },
+  {
+    "id": 20,
+    "title": "پشتیبانی تکنولایف",
+    "content": "شما می‌توانید جهت خرید کالا، پرسش‌های خود را در بسترهای مختلفی که تکنولایف فراهم کرده مطرح کنید. جهت دریافت مشاوره خرید و پیگیری سفارشات می‌توانید با مرکز تماس تکنولایف و با شماره‌های 02147708000 و 02191077500 ارتباط برقرار نمایید و از پشتیبانی انلاین تکنولایف بهره ببرید.\n\nهمچنین می‌توانید پرسش‌های متداول خود را از طریق چت آنلاین در وبسایت تکنولایف مطرح نمایید."
+  },
+  {
+    "id": 21,
+    "title": "نمایندگی و شعب حضوری",
+    "content": "تکنولایف بستری را فراهم کرده است تا خریداران بتوانند در شهر تهران به‌صورت حضوری خریدشان را انجام بدهند. شما می‌توانید جهت خرید کالا به شعب حضوری تکنولایف شامل ( شعبه 1: بازار موبایل ایران 1 - شعبه 2: مرکز خرید عرش آجودانیه - شعبه 3: مرکز خرید اپال، سعادت آباد - شعبه 4: بازار موبایل ایران 2 ، یافت آباد ) مراجعه نمایید."
+  },
+  {
+    "id": 22,
+    "title": "روش‌های ارسال کالا",
+    "content": "شرکت تکنولایف برای مشتریان خود روش‌های ارسال متنوعی در نظر گرفته است. علاوه‌بر شیوه‌ی ارسال عادی که از طریق پست، تیپاکس و باربری‌ انجام می‌شود، سرویس ارسال سریع تکنولایف امکان ارسال یک‌روزه را در حال حاضر برای ۷ شهر ایران (تهران، کرج، تبریز، شیراز، مشهد، اهواز و اصفهان) فعال کرده است."
+  },
+  {
+    "id": 23,
+    "title": "همکاری با تکنولایف (فروشنده شو)",
+    "content": "سایت فروش موبایل و کالای دیجیتال تکنولایف، امکان همکاری با علاقه‌مندان و دیگر فروشندگان را فراهم کرده است. بدین‌منظور، اگر فروشنده کالای دیجیتال هستید و می‌خواهید با تکنولایف جهت فروش همکاری داشته باشید، کافی است که اطلاعات درج شده در صفحه فروشنده شو را مطالعه کرده و مراحل لازمه را طی نمایید. از مزایای همکاری با تکنولایف به عنوان سلر یا فروشنده، می‌توانیم به مواردی چون بازپرداخت سریع و کمیسیون منصفانه، انبارداری رایگان و همینطور ثبت نام رایگان و راحت اشاره داشته باشیم."
+  }
+],
+"brands-img" : [
+  {"id" : 1 , "img" : "./src/assets/images/brands/banner_BrandBanners_0E0mGk_aff5d3ed-9b24-4ea4-8b0c-5d3949be06d3.webp"},
+  {"id" : 2 , "img" : "./src/assets/images/brands/banner_BrandBanners_8XEvZo_8a4b6e91-0046-4f7a-b59b-745c739b8e75.webp"},
+  {"id" : 3 , "img" : "./src/assets/images/brands/banner_BrandBanners_b7y0uY_5751d940-09de-416a-97e3-74689afbe6f8.webp"},
+  {"id" : 4 , "img" : "./src/assets/images/brands/banner_BrandBanners_BBs0PS_6bf4becd-f428-4326-9808-be3434837c83.webp"},
+  {"id" : 5 , "img" : "./src/assets/images/brands/banner_BrandBanners_bWAkhn_e0514e1f-9e2f-493e-a8b3-00db541c98e9.webp"},
+  {"id" : 6 , "img" : "./src/assets/images/brands/banner_BrandBanners_dTwKZj_5d22a3d3-0de3-49ea-864a-67d96cb6bf6b.webp"},
+  {"id" : 7 , "img" : "./src/assets/images/brands/banner_BrandBanners_GoWKQ2_de5baecb-e4fc-4b4b-a83d-d9ef67e493a8.webp"},
+  {"id" : 8 , "img" : "./src/assets/images/brands/banner_BrandBanners_k4gOHA_6f862848-9bf7-46f0-9e05-4e0b38d85999.webp"},
+  {"id" : 9 , "img" : "./src/assets/images/brands/banner_BrandBanners_MriHg0_39d5804c-aacf-4912-98cf-2a6fb4c38517.webp"},
+  {"id" : 10 , "img" : "./src/assets/images/brands/banner_BrandBanners_NcRIgk_f7ccbc4b-750f-499c-b668-98980966b8c0.webp"},
+  {"id" : 11 , "img" : "./src/assets/images/brands/banner_BrandBanners_Ox33Xi_2b532dfb-3989-46d4-8d2d-b2c5b1e701fb.webp"},
+  {"id" : 12 , "img" : "./src/assets/images/brands/banner_BrandBanners_PVvHxD_a5d30633-c84b-470c-bf63-a56e5fbdf9b6.webp"},
+  {"id" : 13 , "img" : "./src/assets/images/brands/banner_BrandBanners_sk0Pf9_90b94b5c-56f3-46fd-91de-4abfbc3718d3.webp"},
+  {"id" : 14 , "img" : "./src/assets/images/brands/banner_BrandBanners_TgR7aU_6130d308-e964-4f49-97c6-489f0c7755b3.webp"},
+  {"id" : 15 , "img" : "./src/assets/images/brands/banner_BrandBanners_XD52NM_0029eb0f-05e7-4f45-83b5-4bdd9317ce6d.png"},
+  {"id" : 16 , "img" : "./src/assets/images/brands/banner_BrandBanners_yqE3hH_1a75ca9e-c20c-4ec2-9557-5e55e803138f.webp"},
+  {"id" : 17 , "img" : "./src/assets/images/brands/banner_BrandBanners_Z8Z7sF_747136be-bdbe-4f81-8587-5034fa0640a4.webp"},
+  {"id" : 18 , "img" : "./src/assets/images/brands/banner_BrandBanners_9Qpb1k_541f8b8f-dfd3-488a-b02e-0960593c7860.webp"}  
+],
+"branches": [
+    {
+      "id": 1,
+      "title": "بازار موبایل ایران1, خ حافظ",
+      "address": "تهران، خیابان حافظ، پایین تر از خیابان جمهوری، بازار موبایل ایران 1، طبقه همکف، فروشگاه تکنولایف",
+      "images": [
+        {
+          "id": 1,
+          "src": "/src/assets/images/ProductPage/InDersonDelivery/branches/1/static_Iran's-mobile-market-one-1.png"
+        },
+        {
+          "id": 2,
+          "src": "/src/assets/images/ProductPage/InDersonDelivery/branches/1/static_Iran's-mobile-market-one-2.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "مرکز خرید اپال، سعادت آباد",
+      "address": " تهران، شهرک غرب، میدان کتاب، بلوار کوهستان، مرکز تجاری اپال، طبقه هفتم واحد 706، فروشگاه تکنولایف",
+      "images": [
+        {
+          "id": 1,
+          "src": "/src/assets/images/ProductPage/InDersonDelivery/branches/2/static_Opal-shopping-center-1.webp"
+        },
+        {
+          "id": 2,
+          "src": "/src/assets/images/ProductPage/InDersonDelivery/branches/2/static_Opal-shopping-center-2.webp"
+        }
+      ]
+    }
+  ],
+  "footerList": [
+  {
+    "id": 1,
+    "title": "دسترسی سریع",
+    "items": [
+      { "id": 1, "text": "بلاگ" },
+      { "id": 2, "text": "خرید گوشی" },
+      { "id": 3, "text": "گوشی سامسونگ" },
+      { "id": 4, "text": "گوشی آیفون" },
+      { "id": 5, "text": "گوشی شیائومی" },
+      { "id": 6, "text": "گوشی پوکو" },
+      { "id": 7, "text": "مقایسه گوشی" },
+      { "id": 8, "text": "خرید لپ تاپ" },
+      { "id": 9, "text": "هندزفری بلوتوثی" },
+      { "id": 10, "text": "لپ تاپ ایسوس" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "پرفروش ترین محصولات",
+    "items": [
+      { "id": 1, "text": "خرید طلا" },
+      { "id": 2, "text": "گیمینگ" },
+      { "id": 3, "text": "آیفون 17" },
+      { "id": 4, "text": "آیفون 17 پرومکس" },
+      { "id": 5, "text": "گوشی a17" },
+      { "id": 6, "text": "گوشی s25 سامسونگ" },
+      { "id": 7, "text": "ساعت هوشمند" },
+      { "id": 8, "text": "مانیتور" },
+      { "id": 9, "text": "هارد اکسترنال" },
+      { "id": 10, "text": "لوازم خانگی" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "درباره ما",
+    "items": [
+      { "id": 1, "text": "تکنولایف در یک نگاه" },
+      { "id": 2, "text": "اهداف و تعهدهای ما" },
+      { "id": 3, "text": "سوالات متداول" },
+      { "id": 4, "text": "فروشگاه های حضوری" },
+      { "id": 5, "text": "تماس با ما" },
+      { "id": 6, "text": "گزارش سال 1403" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "پیش از خرید",
+    "items": [
+      { "id": 1, "text": "راهنمای خرید اقساطی" },
+      { "id": 2, "text": "خرید سازمانی" },
+      { "id": 3, "text": "راهنمای خرید از تکنولایف" },
+      { "id": 4, "text": "روش های خرید از تکنولایف" },
+      { "id": 5, "text": "ضمانت هفت‌روزه تکنولایف" },
+      { "id": 6, "text": "شیوه‌ها و هزینه ارسال" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "پس از خرید",
+    "items": [
+      { "id": 1, "text": "تضمین رجیستری" },
+      { "id": 2, "text": "رویه‌های بازگرداندن کالا" },
+      { "id": 3, "text": "سوالات متداول رجیستری" },
+      { "id": 4, "text": "رهگیری سفارش‌ها" },
+      { "id": 5, "text": "راهنمای مرجوعی در سایت" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "قوانین و مقررات",
+    "items": [
+      { "id": 1, "text": "قوانین و مقررات" },
+      { "id": 2, "text": "حریم خصوصی کاربران" },
+      { "id": 3, "text": "از زبان مشتریان تکنولایف" },
+      { "id": 4, "text": "چرا تکنولایف؟" }
+    ]
+  }
+]
+
+
+}

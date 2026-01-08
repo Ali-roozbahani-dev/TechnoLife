@@ -1,0 +1,23 @@
+@layer components{
+    .mobileNavbar{
+        @apply border-t-2 z-100 bg-white border-[#d9d9d9] text-[#787878]
+    }
+     .mobileNavbar ul{
+        @apply flex justify-evenly 
+    }
+    .mobileNavbar li{
+        @apply inline-block w-full
+    }
+    .mobileNavbar li a{
+        @apply h-full pt-4 pb-2 flex flex-col justify-between items-center 
+    }
+    .mobileNavbar li svg{
+        @apply mx-auto mb-1
+    }
+    .mobileNavbar li span{
+        @apply mx-auto text-sm
+    }
+    .mobileNavbar .active{
+        @apply bg-[#eeeeee] border-t-2 border-[#1a3771]
+    }
+}

@@ -1,0 +1,11 @@
+@layer components{
+    .ProductSlider{
+        @apply border-y py-3 border-[rgb(145,158,188)] overflow-hidden bg-[#ffffff] 
+    }
+    .ProductSlider-header{
+        @apply flex flex-wrap justify-between px-10 py-5 font-bold 
+    } 
+    .ProductSlider-prev-btn,.ProductSlider-next-btn{
+        @apply hidden w-9 shadow-[0_0_5px_0px_#caccce] h-9 text-[rgb(27,53,112)] text-[18px] rounded-full bg-white absolute z-10 top-50
+    } 
+}

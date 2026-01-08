@@ -1,0 +1,23 @@
+@layer components{
+    .technoTime{
+        @apply border px-1 overflow-hidden rounded-lg py-1 bg-cover bg-[#53030b] bg-top bg-[url(./assets/images/TechnoTime/landing_background_691e3c2f0bb27e5702e4191e_kafpuq.webp)]
+    }
+    .prev-btn,.next-btn{
+        @apply hidden w-9 h-9 rounded-full bg-[#949494] absolute z-10 top-55 cursor-pointer
+    }     
+    .swiper-button-disabled{
+        @apply opacity-50
+    }         
+    .technoTime .swiper-wrapper {
+       @apply items-stretch
+    }
+    .technoTime .swiper-slide{
+        height: auto !important;         
+    }
+    .technoTime .swiper-slide>div{
+        @apply  border-l last:border-0 h-full
+    }
+    .technoTime .swiper-slide>div{
+        @apply  border-l last:border-0 h-full
+    }
+}
