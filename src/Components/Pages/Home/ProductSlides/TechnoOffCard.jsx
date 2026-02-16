@@ -1,10 +1,9 @@
-import { MdOutlineTimer } from "react-icons/md";
 import { FaPercent } from "react-icons/fa";
 import { useContext, useEffect, useState } from "react";
-import { applyDiscount } from "../../utils/appUtils";
-import { timeLeftHandler } from "../../utils/appUtils";
+import { applyDiscount } from "../../../../utils/appUtils";
+import { timeLeftHandler } from "../../../../utils/appUtils";
 import { useNavigate } from "react-router-dom";
-import { Context } from "../../Context";
+import { Context } from "../../../../Context";
 
 
 export default function TechnoOffCard({id,img,title,price,discount}){
@@ -31,8 +30,8 @@ export default function TechnoOffCard({id,img,title,price,discount}){
 
     return (
         <>
-        {timeLeft &&
-          <div className="TechnoOffCard yekan-regular" onClick={()=> navigate(`/product/${id}`)}> 
+        {!timeLeft.expired &&
+          <div className="TechnoOffCard yekan-regular h-90" onClick={()=> navigate(`/product/${id}`)}> 
             <div className="TechnoOffCard-head">
                 <span className="text-[15px]">تکنوآف</span>
                 <span className="text-lg">{timeLeft.hour}:{timeLeft.minutes}:{timeLeft.second}</span>
@@ -45,7 +44,7 @@ export default function TechnoOffCard({id,img,title,price,discount}){
                     <span className="TechnoOffPercent yekan-bold"><FaPercent className="inline-block me-1 text-[10px] md:text-[11px]"/> <span className="pt-0.5">{discount.value.toLocaleString("fa-IR")}</span></span>
                     <div className="yekan-bold">
                         <div>
-                            <span className="text-lg ">{applyDis}</span> <span className="text-[11px] inline-block ms-px text-[#717171]">تومان</span>
+                            <span className="text-lg ">{applyDis.toLocaleString("fa-IR")}</span> <span className="text-[11px] inline-block ms-px text-[#717171]">تومان</span>
                         </div>
                         <span className="line-through text-[#848484]">{price.toLocaleString("fa-IR")}</span>
                     </div>

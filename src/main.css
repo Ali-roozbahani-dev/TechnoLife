@@ -4,18 +4,21 @@
 @import "./Components/layout/Header/CategoryItem.css";
 @import "./Components/layout/Footer/FooterList.css";
 @import "./Components/layout/Footer/MobileNavbar.css";
-@import "./Components/Common/TechnoTimeCard.css";
-@import "./Components/Common/TechnoTime.css";
+@import "./Components/Pages/Home/ProductSlides/TechnoTimeCard.css";
+@import "./Components/Pages/Home/ProductSlides/TechnoTime.css";
 @import "./Components/layout/Baner/Baner.css";
 @import "./Components/Pages/Home/CategorySlide.css"; 
-@import "./Components/Pages/Home/TechnoOff.css";
-@import "./Components/Pages/Home/ProductSlider.css";
-@import "./Components/Common/TechnoOffCard.css";
+@import "./Components/Pages/Home/ProductSlides/TechnoOff.css";
+@import "./Components/Pages/Home/ProductSlides/ProductSlider.css";
+@import "./Components/Pages/Home/ProductSlides/TechnoOffCard.css";
 @import "./Components/Pages/Home/KitchenAppliances.css";
 @import "./Components/Pages/Home/BrandSlide.css";
 @import "./Components/Pages/Product/BreadCrumbs.css";
 @import "./Components/Pages/Product/common/NavbarIconProduct.css";
 
+*{
+  scroll-behavior: smooth;
+}
 
 
 

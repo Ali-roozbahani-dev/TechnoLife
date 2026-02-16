@@ -4,9 +4,10 @@ import { useState } from "react";
 export const Context = createContext()
 
 export default function ContextProvider({children}){
-    const [disCategory,setDisCategory] = useState('hidden')
-    const [activeCategory,setActiveCategory] = useState('')
-    const [technotimePro,setTechnotimePro] = useState([])
+    const [disCategory , setDisCategory] = useState('hidden')
+    const [activeCategory , setActiveCategory] = useState('')
+    const [technotimePro , setTechnotimePro] = useState([])
+    const [productInfoInPage , setProductInfoInPage] = useState([])
 
     return (
         <Context.Provider value={{
@@ -15,7 +16,9 @@ export default function ContextProvider({children}){
             activeCategory,
             setActiveCategory,
             technotimePro,
-            setTechnotimePro
+            setTechnotimePro,
+            productInfoInPage,
+            setProductInfoInPage            
             }}>
             {children}
         </Context.Provider>        

@@ -1,26 +1,26 @@
 import { RiSearch2Line } from "react-icons/ri";
-import { GiShoppingCart } from "react-icons/gi";
 import LgNavbar from './LgNavbar';
 import CategoryMenu from './CategoryMenu';
 import { Link } from 'react-router-dom';
 import { IoCloseOutline } from "react-icons/io5";
+import ShoppingLink from "./ShoppingLink";
 
 
 
-export default function Header({isProductPage = false}){
+export default function Header({isProductPage = false ,isShoppingBagPage=false}){
 
     
 
     return (
         <>
-        <header className=" w-full yekan-regular sticky top-0 z-50 bg-white border-b border-[#dcdcdc]">
-        <div className="w-full"><a href="" className="w-screen"><img className="w-screen" src="/banner_TopGifDesktop_u1tGHg_cbfa1438-005e-4b71-853f-b7a878fdc77e.gif"/></a></div>
+        <header className={`w-full yekan-regular ${isShoppingBagPage ? "" : "sticky"} top-0 z-50 bg-white border-b border-[#dcdcdc]`}>
+        {!isShoppingBagPage && <div className="w-full"><a href="" className="w-screen"><img className="w-screen" src="/banner_TopGifDesktop_u1tGHg_cbfa1438-005e-4b71-853f-b7a878fdc77e.gif"/></a></div>}
         <div className='container-1'>
             <div className="row justify-between items-center py-2 px-5">
                 <div className='w-full md:w-max flex justify-between items-center'>
                     <div className="flex justify-between items-center">
-                        <Link to={'/'} className='inline-block'><IoCloseOutline  className={`${isProductPage ? "" : "hidden"} text-[25px] text-[#404040]`}/>
-                        <img src="/static_logo_techno_new.svg" alt="" className={isProductPage ? "hidden" : ""}/>
+                        <Link to={'/'} className='inline-block'><IoCloseOutline  className={`${isProductPage ? "md:hidden" : "hidden"} text-[25px] text-[#404040]`}/>
+                        <img src="/static_logo_techno_new.svg" alt="" className={isProductPage ? "hidden  md:block" : ""}/>
                         </Link>
                     </div>
 
@@ -31,7 +31,9 @@ export default function Header({isProductPage = false}){
                     <div className='md:hidden'>
                         <div className='p-1.5 text-[#404040] flex justify-between items-center'>
                             <RiSearch2Line  className="text-[25px]"/>
-                            <GiShoppingCart className={`text-[27px]  ms-4 ${isProductPage ? "" : "hidden"}`}/>
+                            <div className="relative">
+                              {!isShoppingBagPage && <ShoppingLink className={`text-[27px]  ms-4 ${isProductPage ? "border-0" : "hidden"}`}/>}
+                            </div>
                         </div>
                     </div>            
                 </div>
@@ -43,14 +45,14 @@ export default function Header({isProductPage = false}){
                     </div>
                 </div>
                 <div className='w-max ms-5'>
-                    <div className='border border-[#8a8a8a] rounded-[7px] p-1.5'><GiShoppingCart size={'27px'}/></div>
+                    <ShoppingLink />
                 </div>            
                 </div>
             </div>
             <LgNavbar />
         </div>
         </header>        
-        <CategoryMenu />
+        <CategoryMenu isShoppingBagPage={isShoppingBagPage}/>
         </>
     )
 }

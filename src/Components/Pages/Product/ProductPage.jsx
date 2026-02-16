@@ -1,35 +1,47 @@
-import Footer from "../../layout/Footer/Footer";
+import MobilProductPage from "./MobilProductPage";
+import DesktopProductPage from "./DesktopProductPage";
 import Header from "../../layout/Header/Header";
 import BreadCrumbs from "./BreadCrumbs";
-import MainProductContainer from "./MainProductContainer";
-import SellerSelected from "./SellerSelected";
-import Insurance from "./common/Insurance";
-import InPersonDeliveryBtn from "./common/InPersonDeliveryBtn";
-import BuyOption from "./common/BuyOption";
-import MainProperties from "./common/MainProperties";
+import { useContext, useEffect, useState } from "react";
+import { Context } from "../../../Context";
+import useGet from "../../../Hooks/useGet";
+import { useParams } from "react-router-dom";
+
+export default function ProductPage() {
+  const [windowSize, setWindowSize] = useState(() => {
+    return window.innerWidth < 768 ? "mobile" : "desktop";
+  });
+  const { id } = useParams();
+  const [product] = useGet(`http://localhost:3001/products/${id}`);
+  const { setProductInfoInPage, productInfoInPage } = useContext(Context);
+
+  // دریافت کامنت ها  
+  const [comments] = useGet(`http://localhost:3001/comments?productId=${id}`) 
 
 
-export default function ProductPage(){
+  useEffect(() => {
+    const media = window.matchMedia("(max-width : 992px)");
 
-    return (
-        <>
-        <Header isProductPage={true}/>               
-        <BreadCrumbs />
-        <div className="container-1 px-3">
-            <MainProductContainer />
-            <div className="my-5 h-px w-full bg-[#e0e0ff]"></div>
-            <SellerSelected  className="mb-3"/> 
-            <Insurance className="mb-7"/> 
-        </div>
-        <div className="container-1">
-            <div className="my-5 h-px w-full bg-[#e0e0ff]"></div>
-        </div>
-        <div className="container-1 px-3">
-            <InPersonDeliveryBtn className="mb-3"/>
-        </div>
-        <BuyOption />
-        <MainProperties className={"px-3.5"}/>
-        <Footer isProductPage={true}/>
-        </>
-    )
+    const handlerResize = () => {
+      setWindowSize(media.matches ? "mobile" : "desktop");
+    };
+    handlerResize();
+    media.addEventListener("change", handlerResize);
+
+    return () => media.removeEventListener("change", handlerResize);
+  }, []);
+
+  useEffect(() => {
+    setProductInfoInPage(product);
+
+    return () => setProductInfoInPage([]);
+  }, [product]);
+
+  return (
+    <>
+      <Header isProductPage={true} />
+      <BreadCrumbs productInfoInPage={productInfoInPage}/>
+      {windowSize === "mobile" ? <MobilProductPage productInfoInPage={{...productInfoInPage , comments}}/> : <DesktopProductPage productInfoInPage={{...productInfoInPage , comments}}/>}
+    </>
+  );
 }

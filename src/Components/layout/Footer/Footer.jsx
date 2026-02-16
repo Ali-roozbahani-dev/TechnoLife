@@ -2,10 +2,10 @@ import { FaAngleUp } from "react-icons/fa6";
 import FooterList from "./FooterList";
 import FooterContact from "./FooterContact";
 import FooterLicense from "./FooterLicense";
-import MobileNavbar from "./MobileNavbar";
+import NavMobileMain from "./NavMobileMain";
 
 
-export default function Footer({isProductPage = false}){
+export default function Footer({isProductPage = false , isShoppingBagPage=false}){
 
 
   const scrollToTop = () => {
@@ -17,7 +17,7 @@ export default function Footer({isProductPage = false}){
 
     return (
         <>
-        <footer className="yekan-regular px-3">
+        <footer className={`yekan-regular px-3 ${isShoppingBagPage ? "hidden md:block" : ""}`}>
             <div className="bg-linear-to-r from-[#0178b0] to-[#1a3771] py-2 w-full rounded-[30px] mb-1">
                 <div className="container-1 px-8">
                     <div className="row pt-15 pb-10 justify-between">
@@ -32,7 +32,7 @@ export default function Footer({isProductPage = false}){
                 </div>
             </div>            
         </footer>
-        <MobileNavbar isProductPage={isProductPage}/>
+        {!isProductPage && <NavMobileMain />}
         </>
     )
 }

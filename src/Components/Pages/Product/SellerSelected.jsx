@@ -2,7 +2,6 @@ import { CiShop } from "react-icons/ci";
 import { MdOutlineInventory } from "react-icons/md";
 import { IoSettingsOutline } from "react-icons/io5";
 import { BsPatchCheck } from "react-icons/bs";
-import { RiArrowDownSLine } from "react-icons/ri";
 import { MdChevronLeft } from "react-icons/md";
 import { LuCalendarDays } from "react-icons/lu";
 

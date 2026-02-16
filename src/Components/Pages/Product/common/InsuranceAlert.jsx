@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { LuShieldCheck } from "react-icons/lu";
+import Alert from "../../../Common/Alert";
 
 
 export default function InsuranceAlert(){
@@ -22,11 +22,6 @@ export default function InsuranceAlert(){
     },[])    
     
     return (
-        <div className={`${show ? "translate-y-20" : "-translate-y-20"} bg-[rgba(0,0,0,.9)] text-white text-sm md:text-[15px] fixed  py-3 md:py-5 z-2000 -top-15 transition-all duration-200  w-110 rounded-md px-5 right-[calc(50%-220px)]`}>
-            <div className="flex-between">
-                <p className="yekan-bold">بیمه به کالای شما اضافه شد.</p>
-                <LuShieldCheck  className="text-[23px] md:text-[25px]"/>            
-            </div>
-        </div>
+        <Alert for={"insurance"} show={show}/>        
     )
 } 

@@ -6,13 +6,13 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import { GrFormPrevious,GrFormNext } from "react-icons/gr";
 import { FaGripfire } from "react-icons/fa6";
-import useGet from "../../Hooks/useGet"
-import { Context } from "../../Context"
+import useGet from "../../../../Hooks/useGet"
+import { Context } from "../../../../Context"
 import { useContext, useEffect } from "react"
 
 
 export default function TechnoTime(){
-    const [products,loading,error] = useGet("http://localhost:3001/products")
+    const [products] = useGet("http://localhost:3001/products")
     const {technotimePro,setTechnotimePro} = useContext(Context)
 
     

@@ -11,23 +11,23 @@ export default function NavbarIconProduct(){
         <div className="NavbarIconProduct yekan-bold">
             <div>
                 <span>اشتراک گذاری</span>
-                <div className="text-[20px]"><BsShare /></div>
+                <div className="text-[20px] lg:mx-2 xl:mx-4"><BsShare /></div>
             </div>
             <div>
                 <span>نظرات کاربران</span>
-                <div className="text-[23px]"><FaRegComments /></div>
+                <div className="text-[23px] lg:mx-2 xl:mx-4"><a type="buttun" href="#Comments"><FaRegComments /></a></div>
             </div>
             <div>
                 <span>مقایسه کالا</span>
-                <div className="text-[23px]"><IoIosGitCompare /></div>
+                <div className="text-[23px] lg:mx-2 xl:mx-4"><IoIosGitCompare /></div>
             </div>
             <div>
                 <span>اطلاع رسانی تکنوآف</span>
-                <div className="text-[23px]"><HiOutlineBellAlert /></div>
+                <div className="text-[23px] lg:mx-2 xl:mx-4"><HiOutlineBellAlert /></div>
             </div>
             <div>
                 <span>مورد علاقه</span>
-                <div className="text-[25px]"><CiHeart color="red"/></div>
+                <div className="text-[25px] lg:mx-2 xl:mx-4"><CiHeart color="red"/></div>
             </div>
         </div>                
     )
