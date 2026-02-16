@@ -1,16 +1,38 @@
-# React + Vite
+# فروشگاه آنلاین با JSON Server فیک
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+این پروژه یک **فروشگاه آنلاین** است که با استفاده از **JSON Server فیک** برای توسعه بک‌اند ساخته شده است.
 
-Currently, two official plugins are available:
+> توجه: به دلیل محدودیت‌های JSON Server و نبود دیتای واقعی، فقط برخی از ویژگی‌ها توسعه داده شده‌اند.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ویژگی‌ها
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **صفحه محصولات**: نمایش لیست محصولات با جزئیات.
+- **سبد خرید**: اضافه کردن و مدیریت محصولات در سبد.
+- **کامنت‌ها**: ثبت کامنت برای هر محصول.  
+  > 💡 توجه: پس از ثبت کامنت، صفحه را **رفرش** کنید تا کامنت شما نمایش داده شود.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## محدودیت‌ها
+
+- داده‌ها واقعی نیستند و همه چیز روی **JSON Server فیک** کار می‌کند.
+- برخی فیچرها به دلیل محدودیت بک‌اند تکمیل نشده‌اند.
+
+---
+
+## نصب و اجرا
+
+1. پروژه را کلون کنید:
+   ```bash
+   git clone <آدرس پروژه>
+
+2. وابستگی‌ها را نصب کنید:
+    npm install   
+
+3. JSON Server را راه‌اندازی کنید:
+    npx json-server --watch db.json --port 3001
+
+4. پروژه را اجرا کنید:
+    npm start    
