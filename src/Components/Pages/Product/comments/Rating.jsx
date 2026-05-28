@@ -20,7 +20,7 @@ export default function Rating({className="" , productInfoInPage}){
                 <div className="flex-1 2xl:pe-10">
                     <Comments productInfoInPage={productInfoInPage}/>
                 </div>
-                <div className="2xl:w-1/3 2xl:sticky top-30 left-0">
+                <div className="2xl:w-1/3 2xl:sticky top-47 left-0">
                     <div className="flex lg:block justify-between items-center py-3">
                         <StarsRating rateNum={averageRating} className="text-[35px] flex-center"/>                                               
                         <div className="px-2 text-center">

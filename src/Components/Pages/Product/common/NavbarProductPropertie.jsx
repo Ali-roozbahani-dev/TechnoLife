@@ -42,7 +42,7 @@ export default function NavbarProductPropertie(){
     }
 
     return (
-        <div className="yekan-bold text-[13px] border-b w-full lg:sticky lg:top-30 z-100 right-0 border-sky-500 mb-1 flex items-center bg-blue-50">
+        <div className="yekan-bold text-[13px] border-b w-full lg:sticky lg:top-30 z-10 right-0 border-sky-500 mb-1 flex items-center bg-blue-50">
             
             <button 
                 className="relative mx-4 py-3 lg:py-4.5 lg:text-[15px] block h-full text-[#717171]"

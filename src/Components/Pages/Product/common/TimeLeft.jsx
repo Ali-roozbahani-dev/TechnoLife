@@ -4,16 +4,22 @@ import { timeLeftHandler } from "../../../../utils/appUtils"
 
 
 export default function TimeLeft({product}){
-    const [timeLeft,setTimeLeft] = useState(null)
-
-
-    useEffect(()=>{              
-            const timer = setInterval(()=>{
-                setTimeLeft(timeLeftHandler(product.discount.end_at))
-            },1000)
+    const [timeLeft,setTimeLeft] = useState(null)    
     
-            return ()=> clearInterval(timer)
-        },[product])
+    
+    useEffect(()=>{ 
+    
+    const randomHours = Math.floor(Math.random() * 24) + 1; 
+    const newEndAt = Math.floor(Date.now() / 1000) + randomHours * 3600;          
+    
+        
+                
+        const timer = setInterval(()=>{
+            setTimeLeft(timeLeftHandler(newEndAt))
+        },1000)
+
+        return ()=> clearInterval(timer)
+    },[product])
 
     return (
         timeLeft &&

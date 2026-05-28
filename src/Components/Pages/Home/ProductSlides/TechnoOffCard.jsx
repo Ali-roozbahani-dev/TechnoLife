@@ -14,13 +14,26 @@ export default function TechnoOffCard({id,img,title,price,discount}){
 
     
     
-    useEffect(()=>{              
-        const timer = setInterval(()=>{
-            setTimeLeft(()=>timeLeftHandler(discount.end_at))
-        },1000)
+     useEffect(() => {
+        const timer = setInterval(() => {
+            const updatedTime = timeLeftHandler(discount.end_at);
 
-        return ()=> clearInterval(timer)
-    },[])
+            if (!updatedTime.expired) {
+            setTimeLeft(updatedTime);
+            } else {
+            // زمان تخفیف اکسپایر شد، به صورت رندوم بین 1 تا 24 ساعت تمدید شود
+            const randomHours = Math.floor(Math.random() * 24) + 1; 
+            const newEndAt = Math.floor(Date.now() / 1000) + randomHours * 3600;
+
+            discount.end_at = newEndAt;
+            
+            const newTimeLeft = timeLeftHandler(newEndAt);
+            setTimeLeft(newTimeLeft);
+            }
+        }, 1000);
+
+        return () => clearInterval(timer);
+        }, [discount, setTechnotimePro]);
 
     useEffect(()=>{
         !timeLeft && setTechnotimePro((prev)=> prev.filter((pro)=> pro.id != id))        

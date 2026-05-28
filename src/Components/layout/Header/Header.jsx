@@ -4,6 +4,7 @@ import CategoryMenu from './CategoryMenu';
 import { Link } from 'react-router-dom';
 import { IoCloseOutline } from "react-icons/io5";
 import ShoppingLink from "./ShoppingLink";
+import LoginBtn from "./LoginBtn";
 
 
 
@@ -38,12 +39,7 @@ export default function Header({isProductPage = false ,isShoppingBagPage=false})
                     </div>            
                 </div>
                 <div className='hidden md:flex w-maxjustify-end'>
-                <div className='w-maxpe-5'>
-                    <div className='flex justify-center rounded-[7px] border px-3 py-1.5 h-10 cursor-pointer'>
-                        <span className='block h-full px-3 border-l'>ورود</span>
-                        <span className='block h-full px-3'>ثبت نام</span>
-                    </div>
-                </div>
+                <LoginBtn />
                 <div className='w-max ms-5'>
                     <ShoppingLink />
                 </div>            
