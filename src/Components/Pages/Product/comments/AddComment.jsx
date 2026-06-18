@@ -70,7 +70,7 @@ export default function AddComment({ setShowAddComment, productInfoInPage }) {
               <div className="border-t lg:border-0 px-3.5 py-3">
                 <p className="yekan-regular mb-3 text-[13px] text-center">
                   با ثبت نظر موافت خود را با
-                  <span className="underline yekan-bold text-sky-600 mx-1">
+                  <span className="underline inline-block yekan-bold text-sky-600 mx-1">
                     قوانین انتشار نظرات
                   </span>
                   در تکنولایف اعلام میکنم

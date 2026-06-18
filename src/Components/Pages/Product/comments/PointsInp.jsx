@@ -40,7 +40,7 @@ export default function PointsInp({formInfo , focusHandler , inpFocus , setFormI
     return (
     <>
     <div className="relative mt-10">
-        <label htmlFor="positivePoints" className={`${inpFocus.positivePoints || positiveItem.trim() ? "-translate-y-12 text-xs" : "translate-y-0 text-[13px]"} transition-all delay-100 absolute top-5.5 right-4`}><span className="text-red-600">*</span>نکات منفی</label>
+        <label htmlFor="positivePoints" className={`${inpFocus.positivePoints || positiveItem.trim() ? "-translate-y-12 text-xs" : "translate-y-0 text-[13px]"} transition-all delay-100 absolute top-5.5 right-4`}><span className="text-red-600">*</span>نکات مثبت</label>
         <input onKeyDown={(e)=>submitByEnter(e,"positivePoints")} value={positiveItem} onClick={(e)=> e.stopPropagation()} onChange={changePositiveList}  onFocus={()=>focusHandler("positivePoints")} name="positivePoints" id="positivePoints" className="border p-4 rounded-sm block w-full focus:outline-sky-600 focus:shadow-[0_0_0_5px_#83c0f4]"/>
         <button
          onClick={()=>submitHandler("positivePoints")}         
