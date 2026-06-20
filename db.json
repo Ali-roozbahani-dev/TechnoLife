@@ -2806,6 +2806,28 @@
       "unknownUser": true,
       "date": "۱۴۰۵/۳/۲۹",
       "id": 44
+    },
+    {
+      "productId": 2,
+      "text": "نظر من",
+      "points": {
+        "positivePoints": [
+          {
+            "id": "38f8f076-76fd-46f8-80f2-bc28da06d692",
+            "text": "نکته مثبت 1 "
+          }
+        ],
+        "negativePoints": [
+          {
+            "id": "23fc36d4-5e49-4e2b-9685-ac1d4e47adc6",
+            "text": "نکته منفی 1"
+          }
+        ]
+      },
+      "ratingNumber": 5,
+      "unknownUser": true,
+      "date": "۱۴۰۵/۳/۳۰",
+      "id": 45
     }
   ]
 }

@@ -10,7 +10,7 @@
 
 - **صفحه محصولات**: نمایش لیست محصولات با جزئیات.
 - **سبد خرید**: اضافه کردن و مدیریت محصولات در سبد.
-- **کامنت‌ها**: ثبت کامنت برای هر محصول.  
+- **کامنت‌ها**: ثبت کامنت برای هر محصول. 
   > 💡 توجه: پس از ثبت کامنت، صفحه را **رفرش** کنید تا کامنت شما نمایش داده شود.
 
 ---
@@ -35,4 +35,18 @@
     npx json-server --watch db.json --port 3001
 
 4. پروژه را اجرا کنید:
-    npm start    
+    npm start 
+
+## تصاویر
+
+![صفحه اصلی](./public/screenshots/home(1).png)
+![صفحه اصلی](./public/screenshots/home(2).png)
+![صفحه اصلی](./public/screenshots/home(3).png)
+![صفحه لاگین](./public/screenshots/login.png)
+![صفحه محصول](./public/screenshots/product(1).png)
+![صفحه محصول](./public/screenshots/product(2).png)
+![صفحه محصول](./public/screenshots/product(3).png)
+![صفحه سبد خرید](./public/screenshots/cart.png)
+
+## ویديو
+[مشاهده دمو در یوتیوب](https://youtu.be/sDRIz3osyXI)
